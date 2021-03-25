@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.7.8 on win32)" generated="20210325 12:27:18.364" rpa="false">
+<suite id="s1" name="Test" source="D:\Na szkolenie\Repozytorium 2\listenerTest\test.robot">
+<test id="s1-t1" name="Test debuggera">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>Test was started</arg>
+</arguments>
+<status status="PASS" starttime="20210325 12:27:18.437" endtime="20210325 12:27:18.441"></status>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>${test_variable}</arg>
+<arg>startValue</arg>
+</arguments>
+<msg timestamp="20210325 12:27:24.403" level="INFO">${test_variable} = startValue</msg>
+<status status="PASS" starttime="20210325 12:27:24.396" endtime="20210325 12:27:24.403"></status>
+</kw>
+<kw name="Change value" library="testKeywords">
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>${test_variable}</arg>
+<arg>changedValue</arg>
+</arguments>
+<msg timestamp="20210325 12:27:26.872" level="INFO">${test_variable} = changedValue</msg>
+<status status="PASS" starttime="20210325 12:27:26.869" endtime="20210325 12:27:26.872"></status>
+</kw>
+<status status="PASS" starttime="20210325 12:27:26.867" endtime="20210325 12:27:37.189"></status>
+</kw>
+<kw name="Set Test Variable" library="BuiltIn">
+<doc>Makes a variable available everywhere within the scope of the current test.</doc>
+<arguments>
+<arg>${test_variable}</arg>
+<arg>endValue</arg>
+</arguments>
+<msg timestamp="20210325 12:27:43.644" level="INFO">${test_variable} = endValue</msg>
+<status status="PASS" starttime="20210325 12:27:43.640" endtime="20210325 12:27:43.644"></status>
+</kw>
+<status status="PASS" starttime="20210325 12:27:18.436" endtime="20210325 12:27:47.847" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20210325 12:27:18.381" endtime="20210325 12:27:47.850"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

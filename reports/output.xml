@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.7.8 on win32)" generated="20210325 14:59:18.031" rpa="false">
+<suite id="s1" name="Reports" source="D:\Na szkolenie\Repozytorium 2\reports">
+<suite id="s1-s1" name="testSuite1" source="D:\Na szkolenie\Repozytorium 2\reports\testSuite1.robot">
+<test id="s1-s1-t1" name="Test suite 1 test case 1">
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>${true}</arg>
+</arguments>
+<status status="PASS" starttime="20210325 14:59:18.107" endtime="20210325 14:59:18.107"></status>
+</kw>
+<status status="PASS" starttime="20210325 14:59:18.106" endtime="20210325 14:59:18.108" critical="yes"></status>
+</test>
+<test id="s1-s1-t2" name="Test suite 1 test case 2">
+<kw name="Log To Console" library="BuiltIn">
+<doc>Logs the given message to the console.</doc>
+<arguments>
+<arg>test1</arg>
+</arguments>
+<status status="PASS" starttime="20210325 14:59:18.116" endtime="20210325 14:59:18.117"></status>
+</kw>
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>${false}</arg>
+</arguments>
+<msg timestamp="20210325 14:59:18.120" level="FAIL">'False' should be true.</msg>
+<status status="FAIL" starttime="20210325 14:59:18.119" endtime="20210325 14:59:18.120"></status>
+</kw>
+<status status="FAIL" starttime="20210325 14:59:18.113" endtime="20210325 14:59:18.121" critical="yes">'False' should be true.</status>
+</test>
+<status status="FAIL" starttime="20210325 14:59:18.099" endtime="20210325 14:59:18.134"></status>
+</suite>
+<suite id="s1-s2" name="testSuite2" source="D:\Na szkolenie\Repozytorium 2\reports\testSuite2.robot">
+<test id="s1-s2-t1" name="Test suite 2 test case 1">
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>${true}</arg>
+</arguments>
+<status status="PASS" starttime="20210325 14:59:18.151" endtime="20210325 14:59:18.152"></status>
+</kw>
+<status status="PASS" starttime="20210325 14:59:18.148" endtime="20210325 14:59:18.153" critical="yes"></status>
+</test>
+<test id="s1-s2-t2" name="Test suite 2 test case 2">
+<kw name="Should Be True" library="BuiltIn">
+<doc>Fails if the given condition is not true.</doc>
+<arguments>
+<arg>${false}</arg>
+</arguments>
+<msg timestamp="20210325 14:59:18.158" level="FAIL">'False' should be true.</msg>
+<status status="FAIL" starttime="20210325 14:59:18.157" endtime="20210325 14:59:18.158"></status>
+</kw>
+<status status="FAIL" starttime="20210325 14:59:18.156" endtime="20210325 14:59:18.160" critical="yes">'False' should be true.</status>
+</test>
+<status status="FAIL" starttime="20210325 14:59:18.139" endtime="20210325 14:59:18.171"></status>
+</suite>
+<status status="FAIL" starttime="20210325 14:59:18.040" endtime="20210325 14:59:18.181"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="2">Critical Tests</stat>
+<stat pass="2" fail="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="2" id="s1" name="Reports">Reports</stat>
+<stat pass="1" fail="1" id="s1-s1" name="testSuite1">Reports.testSuite1</stat>
+<stat pass="1" fail="1" id="s1-s2" name="testSuite2">Reports.testSuite2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
